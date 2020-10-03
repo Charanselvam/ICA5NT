@@ -1,5 +1,35 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,500,600,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+html, body {
+  
+    margin
+    : 0;
+      
+    padding
+    : 0;
+    }
+    .background {
+      
+    position
+    :
+     absolute
+    ;
+      
+    display
+    :
+     block
+    ;
+      
+    top
+    : 0;
+      
+    left
+    : 0;
+      
+    z-index
+    : 0;
+    }
+
 body {
     color: #797979;
     font-family: "Roboto", sans-serif;
@@ -205,7 +235,7 @@ h4,
 }
 .header_area .navbar .nav .nav-item .nav-link {
     font-family: "Roboto", sans-serif;
-    color: #242424;
+    color: #ffffff;
     text-transform: capitalize;
     font-weight: 400;
     padding: 33px 0;
@@ -216,7 +246,7 @@ h4,
 }
 .header_area .navbar .nav .nav-item:hover .nav-link,
 .header_area .navbar .nav .nav-item.active .nav-link {
-    color: #f1ecee;
+    color: #8855ab;
     opacity: 1;
 }
 .header_area .navbar .nav .nav-item.submenu {
@@ -404,6 +434,40 @@ h4,
         line-height: 45px;
     }
 }
+/* @media screen and (min-width: 1020px) {
+
+    .scrolled .header_area.navbar {
+        padding: 2.5rem 0 1.25rem;
+        transition: all .5s ease-out;
+    }
+
+    .header_area .navbar {
+    background: initial;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 5rem 0 1.25rem;
+    transition: all .4s ease-out;
+    }
+    
+} */
+
+
+
+/* .header_area.navbar:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #34215b;
+    opacity: 0;
+    transition: all .2s ease;
+    z-index: 1;
+} */
+
 @media (max-width: 991px) {
     .navbar-toggler {
         border: none;
@@ -414,7 +478,7 @@ h4,
         margin-bottom: 23px;
     }
     .header_area .navbar {
-        background: #fff;
+        background: #3b1d82;
     }
     .header_area .navbar .nav-item.active .nav-link {
         color: #3b1d82 !important;
@@ -1056,6 +1120,25 @@ h4,
 }
 .scheduleTab .nav-item a.active > * {
     color: #fff;
+}
+
+
+div.list-group{
+    text-align: left;
+    font-size: large;
+}
+.ida{
+    font-size: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list-group-item{
+background-color: #f1f9fb;
+  border-top: 1px solid #0091b5;
+  border-left-color: #fff;
+  border-right-color: #fff;
+}
+.list-group-item:hover{
+    background-color:#3b1d82;
 }
 .card-identity {
     background: #3b1d82;
