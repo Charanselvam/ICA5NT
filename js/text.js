@@ -6,7 +6,7 @@ var i = 0,
 
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
 var textArray = [
-  "SPONSORED BY  ALL INDIA COUNSIL FOR TECHNICAL EDUCATION ", 
+  "SPONSORED BY  ALL INDIA COUNCIL FOR TECHNICAL EDUCATION ", 
   "ORGANISED BY DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING ", 
   
   
